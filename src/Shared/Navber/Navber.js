@@ -14,7 +14,7 @@ const Navber = () => {
     const menuItem = <>
         <li><Link to={'/'}>Home</Link></li>
         <li><Link to={'/about'}>About</Link></li>
-        <li><Link to={'/contact'}>Contact</Link></li>
+        <li><Link to={'/contact'}>Contact Us</Link></li>
 
         {user?.uid ?
             <li><button onClick={handleLogOut}>Sign Out</button></li>
